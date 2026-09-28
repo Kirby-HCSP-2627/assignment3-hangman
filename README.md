@@ -1,4 +1,4 @@
-# Assignment #1
+# Assignment #3 Hangman
 
 ### INSTALL
 Run each line individually <br/>
@@ -25,13 +25,14 @@ In general, when taking user input there are a few things we want to check: <br/
 2. Clean up the user input, remove extra blank spaces and convert to all lowercase
 
 
-These might be some useful. Google them to find the documentation
+These might be some useful methods/functions. Google them to find the documentation
 ```python
 isalpha()
 string.strip() 
 ```
 ### The Program
-
+You will implement a variation of the classic word game Hangman. If you areunfamiliar with the rules of the game, [read here](http://en.wikipedia.org/wiki/Hangman_(game)) . Don’t be intimidated by this problem it's actually easier than it looks! I will 'scaffold' this problem, guiding you through the creation of helper functions 
+before you implement the actual game.
 
 ### Example Output
 Example for is_word_guessed() helper function
