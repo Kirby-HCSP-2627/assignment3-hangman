@@ -11,6 +11,7 @@
 # Helper Function 2
 # Implement the function get_guessed_word that takes in two parameters a string, secret_word, and a list of letters, letters_guessed. 
 # This function returns a string that is comprised of letters and underscores, based on what letters in letters_guessed are in secret_word.
+# Hint: There are methods for strings or lists to find the indexes of specific values 
 
 
 
