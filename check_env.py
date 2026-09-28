@@ -7,8 +7,7 @@ if not hasattr(sys, 'real_prefix') and sys.base_prefix == sys.prefix:
     sys.exit(1)
 
 try:
-    import random
-    import string
+    import pygame
     print("SUCCESS: Virtual environment is active and dependencies are loaded!")
 except ImportError:
     print("ERROR: Dependencies are missing. Did you run 'pip install -r requirements.txt'?")
